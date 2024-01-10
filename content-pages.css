@@ -1,0 +1,79 @@
+body {
+    box-sizing: border-box;
+}
+
+.lab-related, 
+.notes-related {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.lab-related-heading, 
+.notes-related-heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+}
+
+.part-a, 
+.part-b, 
+.notes {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.5px;
+    color: var(--tertiary);
+}
+
+.pgm-box, 
+.notes-box {
+    border: 2px solid var(--primary-white);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.pgm-desc, 
+.notes-desc {
+    margin-bottom: 5px;
+}
+
+.link-to-pgms:hover {
+    border-bottom: 2px solid var(--primary-white);
+}
+
+.multipurpose-btn {
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 14px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin-left: 26px;
+}
+  
+.multipurpose-btn:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+  
+.multipurpose-btn:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.notes-related > .underline-box {
+    max-width: 35px;
+}
+
+@media (max-width: 786px) {
+    .lab-related, .notes-related {
+        width: 90%;
+    }
+
+    .multipurpose-btn {
+        margin-left: 5px
+    }
+}
