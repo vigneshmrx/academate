@@ -272,6 +272,12 @@ footer {
     }
 }
 
+@media (max-width: 450px) {
+  .other-nav-links {
+    flex-direction: column;
+  }
+}
+
 /* @media (max-width: 786px) {
     .quote-box {
         max-width: 85%;
